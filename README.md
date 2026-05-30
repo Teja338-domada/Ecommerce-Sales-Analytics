@@ -59,7 +59,7 @@ Ecommerce-Sales-Analytics/
 
 ## Dashboard Preview
 
-![Dashboard Preview](dashboard_final.png.jpg)
+![Dashboard Preview](FINAL_DASHBOARD.jpg)
 ## Author
 
 Teja Domada
