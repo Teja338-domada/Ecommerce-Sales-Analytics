@@ -32,6 +32,24 @@ The project includes:
 - Phones and Chairs were the top-selling sub-categories.
 - Consumer segment contributed the highest share of sales.
 
+## SQL Analysis
+
+The following SQL queries were used to analyze sales performance:
+
+```sql
+SELECT Region,
+       SUM(Sales) AS TotalSales
+FROM Orders
+GROUP BY Region;
+```
+
+```sql
+SELECT Category,
+       SUM(Profit) AS TotalProfit
+FROM Orders
+GROUP BY Category;
+```
+
 ## Dashboard Features
 
 - Total Sales KPI
